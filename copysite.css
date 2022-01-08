@@ -70,7 +70,8 @@ header li {
 
 .portfolio-box h1,
 .feature-box h1,
-.profile-box h1 {
+.profile-box h1,
+.contact-text h1 {
   font-size: 32px;
   margin-bottom: 8px;
 }
@@ -84,14 +85,16 @@ header li {
 
 .portfolio-box p,
 .feature-text p,
-.profile-text p {
+.profile-text p,
+.contact-text p {
   padding: 30px 0;
   font-size: 16px;
 }
 
 .portfolio-images,
 .feature-images,
-.profile-image {
+.profile-image,
+.contact-detail {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -182,12 +185,40 @@ header li {
   text-align: left;
 }
 
-.profile-image-text h2 {
+.profile-image-text h2,
+.contact-detail h2 {
   font-size: 20px;
   margin-bottom: 5px;
 }
 
-.profile-image-text p {
+.profile-image-text p,
+.contact-detail p {
   font-size: 16px;
   margin-bottom: 20px;
+}
+
+.contact-box {
+  width: 800px;
+  padding: 90px 0;
+  margin: 0 auto;
+}
+
+.contact-text {
+  text-align: center;
+}
+
+.contact-detail-mail,
+.contact-detail-sns {
+  width: 400px;
+}
+
+.contact-detail-mail div,
+.contact-detail-sns div {
+  padding-left: 30%;
+}
+
+
+.contact-detail-sns i {
+  font-size: 50px;
+  padding-right: 20px;
 }

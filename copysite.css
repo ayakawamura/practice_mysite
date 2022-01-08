@@ -210,27 +210,90 @@ header li {
 .contact-detail-mail,
 .contact-detail-sns {
   width: 400px;
+  padding-left: 15%;
 }
-
-.contact-detail-mail div,
-.contact-detail-sns div {
-  padding-left: 30%;
-}
-
 
 .contact-detail-sns i {
-  font-size: 50px;
+  font-size: 45px;
   padding-right: 20px;
 }
 
-footer{
+footer {
   height: 60px;
   background-color: #ec715f;
 }
 
-footer p{
+footer p {
   color: #fafafa;
   font-size: 16px;
   text-align: center;
   line-height: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    height: 50px;
+  }
+
+  .header-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  header img {
+    height: 50px;
+  }
+
+  .main-visual {
+    background-image: url(img/code.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 650px;
+  }
+
+  .main-text h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+
+  .main-text p {
+    font-size: 18px;
+  }
+
+  .portfolio-box,
+  .feature-box,
+  .profile-box,
+  .contact-box {
+    width: 90%;
+  }
+
+  .portfolio-images {
+    display: block;
+    justify-content: center;
+  }
+  .feature-images i {
+    padding-top: 30px;
+  }
+
+  .profile-image-text {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .profile-image-icon,
+  .profile-image-text {
+    width: 100%;
+  }
+
+  .contact-detail-mail,
+  .contact-detail-sns {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .contact-detail-sns i{
+    padding-right: 10px;
+  }
 }

@@ -55,7 +55,8 @@ header li {
   font-size: 20px;
 }
 
-#portfolio {
+#portfolio,
+#profile {
   background-color: #eceff1;
 }
 
@@ -67,8 +68,10 @@ header li {
   color: #000000;
 }
 
-.portfolio-box h1 {
-  size: 32px;
+.portfolio-box h1,
+.feature-box h1,
+.profile-box h1 {
+  font-size: 32px;
   margin-bottom: 8px;
 }
 
@@ -79,16 +82,21 @@ header li {
   background-color: #ec715f;
 }
 
-.portfolio-box p {
+.portfolio-box p,
+.feature-text p,
+.profile-text p {
   padding: 30px 0;
-  size: 16px;
+  font-size: 16px;
 }
 
-.portfolio-images {
+.portfolio-images,
+.feature-images,
+.profile-image {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .portfolio-images div {
   height: 250px;
   width: 300px;
@@ -127,26 +135,18 @@ header li {
   text-align: center;
 }
 
-.feature-text p {
-  padding: 30px 0;
-}
-
-.feature-images {
-  display: flex;
-}
-
 .feature-images h2 {
-  size: 20px;
+  font-size: 20px;
   padding: 10px 0;
 }
 
 .feature-images p {
-  size: 16px;
+  font-size: 16px;
   text-align: left;
 }
 
 .feature-images i {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .str1,
@@ -157,4 +157,37 @@ header li {
 
 .str3 {
   width: 320px;
+}
+
+.profile-box {
+  width: 1024px;
+  padding: 90px 0;
+  margin: 0 auto;
+  color: #000000;
+  text-align: center;
+}
+
+.profile-image-icon,
+.profile-image-text {
+  width: 512px;
+}
+
+.profile-image-icon img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.profile-image-text {
+  text-align: left;
+}
+
+.profile-image-text h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-image-text p {
+  font-size: 16px;
+  margin-bottom: 20px;
 }
